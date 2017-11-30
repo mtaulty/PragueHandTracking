@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Canvas HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" SizeChanged="CanvasSizeChanged">
+            <Ellipse Width="10" Height="10" Fill="Green" x:Name="marker" Visibility="Collapsed"/>
+        </Canvas>
+        <TextBlock FontSize="24" x:Name="txtDebug" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+    </Grid>
+</Page>
